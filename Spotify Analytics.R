@@ -19,7 +19,7 @@ library(plotly)
 # We will use this everytime we want to access Spotify data.
 # app_id: can be anything
 # client_id and client_secret: must be the keys generated after creating your app in the Spotify web UI
-keys <- spotifyOAuth('Spotify Analysis','13844449779f4e27a224c043839a861c', '527504c16b4b4ac086eec47074367c0d')
+keys <- spotifyOAuth('Spotify Analysis','', '')
 
   
 # Top 100 Songs Canada 2019 Playlist ID: 37i9dQZF1DX82re5NxbwyO
